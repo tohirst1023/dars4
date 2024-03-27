@@ -1,0 +1,196 @@
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header img {
+    height: 100%;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header ul a {
+    color: black;
+}
+
+.header .left {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.header .phone {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro {
+    margin-top: 100px;
+}
+
+.intro .container {
+    display: flex;
+    gap: 50px;
+}
+
+.intro .left {
+    width: 50%;
+}
+
+.intro .left h1 {
+    font-size: 52px;
+}
+
+.intro .left p {
+    color: rgb(161, 157, 157);
+    margin-bottom: 50px;
+}
+
+.intro .left a {
+    background-color: #1AAB7B;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid #E1E7ED;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: #1AAB7B;
+    color: white;
+}
+
+.card:hover a {
+    color: white;
+}
+
+.help {
+    margin-top: 100px;
+    background-color: #E1E7ED;
+    padding: 20px 0;
+}
+
+.help h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.contact {
+    margin-top: 100px
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 22px;
+    width: 300px;
+}
+
+.contact .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact p {
+    width: 500px;
+    text-align: center;
+}
+
+.contact form {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 500px;
+    height: 200px;
+    padding: 30px;
+}
+
+.contact .form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url('./images/mars logo.png');
+}
+
+.contact input {
+    border: none;
+    margin: 20px 0;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(170, 160, 160);
+    width: 350px;
+}
+
+.contact input::placeholder {
+    color: white;
+}
+
+.contact button {
+    background-color: #1AAB7B;
+    border: none;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: gray;
+    text-decoration: none;
+}
+
+.fab, .far {
+    font-weight: 400;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.facebook{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
